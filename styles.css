@@ -98,3 +98,7 @@ p{
 .text{
     color:var(--Soft-blue) !important;
 }
+
+.creator p:hover, h2:hover{
+    color:var(--Cyan) !important;
+}
