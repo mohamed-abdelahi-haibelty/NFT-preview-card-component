@@ -102,3 +102,16 @@ p{
 .creator p:hover, h2:hover{
     color:var(--Cyan) !important;
 }
+
+@media (min-width:600px){
+    .container{
+        width:300px;
+    }
+    h2{
+        margin-bottom: 0;
+    }
+    p{
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+}
